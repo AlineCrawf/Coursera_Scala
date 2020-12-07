@@ -1,0 +1,17 @@
+[debug] Packaging D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\progfun1-funsets-without-resources_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	funsets
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets
+[debug] 	funsets\FunSets$.class
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\FunSets$.class
+[debug] 	funsets\FunSets.class
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\FunSets.class
+[debug] 	funsets\FunSetsInterface.class
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\FunSetsInterface.class
+[debug] 	funsets\Main$.class
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\Main$.class
+[debug] 	funsets\Main$delayedInit$body.class
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\Main$delayedInit$body.class
+[debug] 	funsets\Main.class
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\Main.class
+[debug] Done packaging.

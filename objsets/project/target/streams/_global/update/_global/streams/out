@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/D:/Учеба/4%20курс/Декларативные%20языки/Scala/objsets/project/"), "objsets-build")...
+[debug] Done updating ProjectRef(uri("file:/D:/Учеба/4%20курс/Декларативные%20языки/Scala/objsets/project/"), "objsets-build")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

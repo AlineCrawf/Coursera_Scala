@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\ALINEC~1\AppData\Local\Temp\idea10.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\ALINEC~1\AppData\Local\Temp\idea10.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.4 (Oracle Corporation Java 15.0.1)
+[debug]       Load.loadUnit: plugins took 272.144ms
+[debug]       Load.loadUnit: defsScala took 0.542ms
+[debug] [Loading] Scanning directory C:\Users\Aline Crawford\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Aline Crawford\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 56.7041 ms
+[debug]           Load.resolveProject(global-plugins) took 100.646ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Aline Crawford\.sbt\1.0\plugins, plugins: List(<none>))) took 209.3743ms
+[debug] [Loading] Done in C:\Users\Aline Crawford\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 255.2255ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.5833ms
+[debug]     Load.loadUnit(file:/C:/Users/Aline%20Crawford/.sbt/1.0/plugins/, ...) took 550.9625ms
+[debug]   Load.apply: load took 931.5305ms
+[debug]   Load.apply: resolveProjects took 11.2557ms
+[debug]   Load.apply: finalTransforms took 136.0925ms
+[debug]   Load.apply: config.delegates took 16.5905ms
+[debug]   Load.apply: Def.make(settings)... took 2079.8436ms
+[debug]   Load.apply: structureIndex took 385.4775ms
+[debug]   Load.apply: mkStreams took 40.415ms
+[info] loading global plugins from C:\Users\Aline Crawford\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8700.8371ms
+[debug]           Load.loadUnit: plugins took 108.9363ms
+[debug]           Load.loadUnit: defsScala took 0.006ms
+[debug] [Loading] Scanning directory D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions\project
+[debug]             Load.loadUnit: mkEval took 15.6965ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.6056 ms
+[info] loading settings for project higher-order-functions-build from idea10.sbt ...
+[debug]               Load.resolveProject(higher-order-functions-build) took 13.9456ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id higher-order-functions-build, base: D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions\project, plugins: List(<none>))) took 18.5697ms
+[debug] [Loading] Done in D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions\project, returning: (higher-order-functions-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 6750.3262ms
+[debug]           Load.loadUnit: cleanEvalClasses took 17.0447ms
+[debug]         Load.loadUnit(file:/D:/Учеба/4%20курс/Декларативные%20языки/Scala/Higher-Order%20Functions/project/, ...) took 6877.8999ms
+[debug]       Load.apply: load took 6882.0486ms
+[debug]       Load.apply: resolveProjects took 0.5165ms
+[debug]       Load.apply: finalTransforms took 132.7013ms
+[debug]       Load.apply: config.delegates took 0.6006ms
+[debug]       Load.apply: Def.make(settings)... took 345.4912ms
+[debug]       Load.apply: structureIndex took 133.7353ms
+[debug]       Load.apply: mkStreams took 0.0034ms
+[info] loading project definition from D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 10757.8466ms
+[debug]     Load.loadUnit: defsScala took 0.0071ms
+[debug] [Loading] Scanning directory D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions
+[debug]       Load.loadUnit: mkEval took 0.4516ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.4842 ms
+[info] loading settings for project higher-order-functions from build.sbt ...
+[debug]         Load.resolveProject(higher-order-functions) took 115.6901ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id higher-order-functions, base: D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions, plugins: List(<none>))) took 123.8211ms
+[debug] [Loading] Done in D:\Учеба\4 курс\Декларативные языки\Scala\Higher-Order Functions, returning: (higher-order-functions)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2676.0748ms
+[debug]     Load.loadUnit: cleanEvalClasses took 25.3546ms
+[debug]   Load.loadUnit(file:/D:/Учеба/4%20курс/Декларативные%20языки/Scala/Higher-Order%20Functions/, ...) took 13460.7555ms
+[debug] Load.apply: load took 13471.1239ms
+[debug] Load.apply: resolveProjects took 0.2062ms
+[debug] Load.apply: finalTransforms took 86.5476ms
+[debug] Load.apply: config.delegates took 0.5036ms
+[debug] Load.apply: Def.make(settings)... took 281.9799ms
+[debug] Load.apply: structureIndex took 67.1384ms
+[debug] Load.apply: mkStreams took 0.0029ms
+[info] set current project to Higher-Order Functions (in build file:/D:/Учеба/4%20курс/Декларативные%20языки/Scala/Higher-Order%20Functions/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 58555 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 58555, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Higher-Order Functions (in build file:/D:/Учеба/4%20курс/Декларативные%20языки/Scala/Higher-Order%20Functions/)
+[debug] > Exec(idea-shell, None, None)

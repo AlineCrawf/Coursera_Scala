@@ -1,0 +1,9 @@
+[debug] Packaging D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\progfun1-funsets_2.13-0.1.0-SNAPSHOT-sources.jar ...
+[debug] Input file mappings:
+[debug] 	funsets\FunSets.scala
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\src\main\scala\funsets\FunSets.scala
+[debug] 	funsets\FunSetsInterface.scala
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\src\main\scala\funsets\FunSetsInterface.scala
+[debug] 	funsets\Main.scala
+[debug] 	  D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\src\main\scala\funsets\Main.scala
+[debug] Done packaging.

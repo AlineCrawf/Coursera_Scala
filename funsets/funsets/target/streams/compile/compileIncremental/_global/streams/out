@@ -1,0 +1,30 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Invalidated products: Set(D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\FunSetsInterface.class, D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\Main.class, D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\Main$.class, D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\Main$delayedInit$body.class, D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\FunSets.class, D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes\funsets\FunSets$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set()
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\src\main\scala\funsets\FunSetsInterface.scala, D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\src\main\scala\funsets\FunSets.scala, D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\src\main\scala\funsets\Main.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All sources are invalidated.
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[info] Compiling 3 Scala sources to D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.0
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.0
+[debug] [zinc] Running cached compiler 6c0ebdc3 for Scala compiler version 2.13.0
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-language:implicitConversions
+[debug] 	-deprecation
+[debug] 	-bootclasspath
+[debug] 	D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar
+[debug] 	-classpath
+[debug] 	D:\Учеба\4 курс\Декларативные языки\Scala\funsets\funsets\target\scala-2.13\classes
+[debug] Scala compilation took 1.976189 s
+[info] Done compiling.
